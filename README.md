@@ -1,19 +1,19 @@
 #MicrobiomePipelines Version 1.0 (semi-automatized pipeline for microbiome data processing, next improvements and updates will follow)
 #Author: cheaib.bachar@gmail.com
-#How to Run the Pipeline on your local computer 
+#How to run the Pipeline on your local computer 
 
 
 Before you run the pipeline you need to install to your HOME PATH the following softwares 
 Linux environment (Debian or redhat)
-0-Miniconda2
-1-Sickle 
-2-Pandaseq
-3-R language 
-4-VSEARCH version 2.15
-5-USEARCH versions 9 and 10 
-6-Mafft
-7-Fastree
-8-Qiime2
+#0-Miniconda2
+#1-Sickle 
+#2-Pandaseq
+#3-R language 
+#4-VSEARCH version 2.15
+#5-USEARCH versions 9 and 10 
+#6-Mafft
+#7-Fastree
+#8-Qiime2
 
 > cd Microbiome_Pipelines
 
@@ -24,8 +24,8 @@ Linux environment (Debian or redhat)
 
 > cd Run_Pipelines
 
-########################## Preprocessing and Benchmarking filtration parameters ############################
-#### For paired-end reads 
+## Preprocessing and Benchmarking filtration parameters
+## For paired-end reads 
 #Run the preprocessing pipeline with the option of reads merging with different parameters : 
 #quality threshold and length of overlapping segment between R1 and R2 
 
@@ -36,10 +36,10 @@ Linux environment (Debian or redhat)
 
 > ./Run_Prepro_Pipeline_Paired_end.sh
 
-# The script that you have just run will call others scripts available in 
-# --> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
-# --> 00_rename_paths_pipelines.sh
-# --> Run_Stats_Benchmarking_Params.R
+# The script that you have just run will call others scripts : 
+#--> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
+#--> 00_rename_paths_pipelines.sh
+#--> Run_Stats_Benchmarking_Params.R
 
 #Vizualise all the R statistics of benchmarking resumed in plots in pdf outputs 
 #the user will decide wether the overlap and quality threshold are fair or unfair regarding the percentage of lost reads 
@@ -51,7 +51,7 @@ Linux environment (Debian or redhat)
 
 > ./Run_Prepro_Pipeline_Single_end.sh
 
-# This script will call
+# This script will call :
 #--> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
 #--> 00_rename_paths_pipelines.sh
 #--> Run_Stats_Benchmarking_Params.R
