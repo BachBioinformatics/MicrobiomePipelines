@@ -44,7 +44,7 @@
 ### Run now the script 
 > ./Run_Prepro_Pipeline_Paired_end.sh
 
-### This script will call : 
+### This script will call
 ## --> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
 ## --> 00_rename_paths_pipelines.sh
 ## --> Run_Stats_Benchmarking_Params.R
