@@ -1,6 +1,6 @@
-# MicrobiomePipelines Version 1.0 (semi-automatized pipeline for microbiome data processing, next improvements and updates will follow)
-# Author: cheaib.bachar@gmail.com
-# How to run the Pipeline on your local computer 
+# MicrobiomePipelines Version 1.0 (semi-automatized pipelines for microbiome data processing, next improvements and updates will follow)
+## Author: cheaib.bachar@gmail.com
+## How to run the Pipeline on your local computer 
 
 
 #Before you run the pipeline you need to install to your HOME PATH the following softwares 
