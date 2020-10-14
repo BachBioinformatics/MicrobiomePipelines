@@ -25,7 +25,7 @@
 
 > cd Run_Pipelines
 
-## Preprocessing and Benchmarking reads filtration parameters
+## 1) Preprocessing and Benchmarking reads filtration parameters
 ## For paired-end reads 
 ###Run the preprocessing pipeline with the option of reads merging with different parameters : 
 ###quality threshold and length of overlapping segment between R1 and R2 
@@ -56,7 +56,7 @@
 #--> 00_rename_paths_pipelines.sh
 #--> Run_Stats_Benchmarking_Params.R
 
-##  Post-benchamking pipeline : Otus clustering and annotations
+## 2) Post-benchamking pipeline : Otus clustering and annotations
 
 ## Install the Reference databases
 > ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_01_set_references_databases.sh /home/bach/Microbiome_Pipelines Programs
