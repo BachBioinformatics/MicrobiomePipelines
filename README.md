@@ -19,9 +19,11 @@
 > cd MicrobiomePipelines
 ## 
 > mkdir Programs
+##
 
 ###In the folder Programs you can add the executable softwares like userach 9 and 10
-###Under the folder Pipelines you see two subfolders 
+##
+### Now under the folder Pipelines you see two subfolders 
 ## 1) Preprocessing pipeline 
 ## 2) OTUs clustering and annotation pipeline 
 
