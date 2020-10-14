@@ -23,9 +23,9 @@
 
 ###In the folder Programs you can add the executable softwares like userach 9 and 10
 ##
-### Now under the folder Pipelines you see two subfolders 
-## 1) Preprocessing pipeline 
-## 2) OTUs clustering and annotation pipeline 
+### Under the folder Pipelines you see two subfolders 
+## 1) Preprocessing pipeline [Prepro_Pipeline]
+## 2) OTUs clustering and annotation pipeline [Pipeline_based_Usearch_Vsearch]
 
 ##The first subfolder contains the Preprocessing pipeline which is a benchmarking for helping users to decide the parameters of reads merging and the threshold of quality filtration
 ###The reason of benchmarking is often associated to the bad quality of R2 sequencing by some sequencing platforms, when the R2 is too bad the merging will reduce your reads at 90%
