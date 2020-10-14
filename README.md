@@ -72,18 +72,18 @@
 
 ## Denovo OTUs clustering and annotations for paired-end results [1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh]
 ### This step consists on removing chimeras, cluster otus with different algorithms implemented in vsearch, 
-### decontaminate otus using approriate genome reference in case of host micorbiota 
+### in case of host micorbiome decontaminattion of otus ir recommended :the user  have to set right host reference genome in the script
 ### annotate OTUs against RDP or SILVA databases using Usearch or Qiime2 depeding on the size of your data
 
-> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh /home/bach/Microbiome_Pipelines References_database Run_Pipelines/results_Q_30_O_50 Programs yes
+> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh /home/bach/Microbiome_Pipelines References_database Run_Pipelines/results_Q_30_O_50 Programs decontam
 
 
 ## Denovo OTUs clustering and annotations for single-end results [1D_02_run_R1_VSEARCH_RDP_SILVAQiime2_last_version.sh]
 ### This step consists on removing chimeras, cluster otus with different algorithms implemented in vsearch, 
-### decontaminate otus using approriate genome reference in case of host micorbiota 
+### in case of host micorbiome decontaminattion of otus ir recommended :the user  have to set right host reference genome in the script
 ### annotate OTUs against RDP or SILVA databases using Usearch or Qiime2 depeding on the size of your data
 
-> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh /home/bach/Microbiome_Pipelines References_database Run_Pipelines/results_Q_30_O_50 Programs yes
+> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh /home/bach/Microbiome_Pipelines References_database Run_Pipelines/results_Q_30_O_50 Programs decontam
 
 
 
