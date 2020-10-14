@@ -1,4 +1,4 @@
-# MicrobiomePipelines Version 1.0 (semi-automatized pipelines for microbiome data processing, tutorial, improvements and updates will follow)
+# MicrobiomePipelines Version 1.0 (semi-automatized pipelines for microbiome data processing, tutorial, improvements and updates will be added)
 ## Author: bachar.cheaib@glasgow.ac.uk
 ## How to run the Pipeline on your local computer 
 
