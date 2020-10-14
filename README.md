@@ -15,28 +15,28 @@
 
 > cd Microbiome_Pipelines
 
-#Under the folder Pipelines you see two subfolders : 1) Preprocessing pipeline and 2) OTUs clustering and annotation pipeline 
-#The first subfolder contains the Preprocessing pipeline which is a Benchmarking that help you to decide the parameters : Reads merging and the threshold of quality filtration
-#The reason of benchmarking is often associated to the bad quality of R2 sequencing by some sequencing platforms, when the R2 is too bad the merging will reduce your reads at 90%
-#That is why we want to avoid the massive loss of data, in this case our pipeline suggest an alternative with and without reads merging.
+##### Under the folder Pipelines you see two subfolders : 1) Preprocessing pipeline and 2) OTUs clustering and annotation pipeline 
+##### The first subfolder contains the Preprocessing pipeline which is a Benchmarking that help you to decide the parameters : Reads merging and the threshold of quality filtration
+##### The reason of benchmarking is often associated to the bad quality of R2 sequencing by some sequencing platforms, when the R2 is too bad the merging will reduce your reads at 90%
+##### That is why we want to avoid the massive loss of data, in this case our pipeline suggest an alternative with and without reads merging.
 
 > cd Run_Pipelines
 
 ## Preprocessing and Benchmarking reads filtration parameters
 ## For paired-end reads 
-#Run the preprocessing pipeline with the option of reads merging with different parameters : 
-#quality threshold and length of overlapping segment between R1 and R2 
+#### Run the preprocessing pipeline with the option of reads merging with different parameters : 
+#### quality threshold and length of overlapping segment between R1 and R2 
 
-#The following script will run automatically the benchmarking with different patrameters 
-#The parameters can be personnalized by editing the following script before you run it [Run_Prepro_Pipeline_Paired_end.sh]
+#### The following script will run automatically the benchmarking with different patrameters 
+#### The parameters can be personnalized by editing the following script before you run it [Run_Prepro_Pipeline_Paired_end.sh]
 
 ### Run now the script 
 > ./Run_Prepro_Pipeline_Paired_end.sh
 
 ### The script that you have just run will call : 
-#--> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
-#--> 00_rename_paths_pipelines.sh
-#--> Run_Stats_Benchmarking_Params.R
+## --> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
+## --> 00_rename_paths_pipelines.sh
+## --> Run_Stats_Benchmarking_Params.R
 
 #Vizualise all the R statistics of benchmarking resumed in plots in pdf outputs 
 #the user will decide wether the overlap and quality threshold are fair or unfair regarding the percentage of lost reads 
