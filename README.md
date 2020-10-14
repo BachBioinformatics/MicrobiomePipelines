@@ -1,10 +1,10 @@
-#MicrobiomePipelines Version 1.0 (semi-automatized pipeline for microbiome data processing, next improvements and updates will follow)
-#Author: cheaib.bachar@gmail.com
-#How to run the Pipeline on your local computer 
+# MicrobiomePipelines Version 1.0 (semi-automatized pipeline for microbiome data processing, next improvements and updates will follow)
+# Author: cheaib.bachar@gmail.com
+# How to run the Pipeline on your local computer 
 
 
-Before you run the pipeline you need to install to your HOME PATH the following softwares 
-Linux environment (Debian or redhat)
+#Before you run the pipeline you need to install to your HOME PATH the following softwares 
+#Linux environment (Debian or redhat)
 #0-Miniconda2
 #1-Sickle 
 #2-Pandaseq
@@ -36,7 +36,7 @@ Linux environment (Debian or redhat)
 
 > ./Run_Prepro_Pipeline_Paired_end.sh
 
-# The script that you have just run will call others scripts : 
+### The script that you have just run will call others scripts : 
 #--> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
 #--> 00_rename_paths_pipelines.sh
 #--> Run_Stats_Benchmarking_Params.R
