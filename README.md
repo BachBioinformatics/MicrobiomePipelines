@@ -15,8 +15,11 @@
 
 > cd Microbiome_Pipelines
 
-###Under the folder Pipelines you see two subfolders : 1) Preprocessing pipeline and 2) OTUs clustering and annotation pipeline 
-###The first subfolder contains the Preprocessing pipeline which is a Benchmarking that help you to decide the parameters : Reads merging and the threshold of quality filtration
+###Under the folder Pipelines you see two subfolders 
+## 1) Preprocessing pipeline 
+## 2) OTUs clustering and annotation pipeline 
+
+##The first subfolder contains the Preprocessing pipeline which is a benchmarking for helping users to decide the parameters of reads merging and the threshold of quality filtration
 ###The reason of benchmarking is often associated to the bad quality of R2 sequencing by some sequencing platforms, when the R2 is too bad the merging will reduce your reads at 90%
 ###That is why we want to avoid the massive loss of data, in this case our pipeline suggest an alternative with and without reads merging.
 
@@ -28,7 +31,7 @@
 ###quality threshold and length of overlapping segment between R1 and R2 
 
 ###The following script will run automatically the benchmarking with different patrameters 
-###The parameters can be personnalized by editing the following script before you run it [Run_Prepro_Pipeline_Paired_end.sh]
+###You need to edit your filtration parametaers before you the script [Run_Prepro_Pipeline_Paired_end.sh]
 
 ### Run now the script 
 > ./Run_Prepro_Pipeline_Paired_end.sh
