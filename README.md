@@ -2,17 +2,16 @@
 ## Author: bachar.cheaib@glasgow.ac.uk
 ## How to run the Pipeline on your local computer 
 
-# Before you run the pipeline you need to install to your HOME PATH the following softwares
-# Linux environment (Debian or Redhat)
-#--0-Miniconda2
-#--1-Sickle 
-#--2-Pandaseq
-#--3-R language 
-#--4-VSEARCH version 2.15
-#--5-USEARCH versions 9 and 10 
-#--6-Mafft
-#--7-Fastree
-#--8-Qiime2
+## Before you run the pipeline you need to install to your HOME PATH the following softwares in your Linux environment (Debian or Redhat)
+### --0-Miniconda2
+### --1-Sickle 
+### --2-Pandaseq
+### --3-R language 
+### --4-VSEARCH version 2.15
+### --5-USEARCH versions 9 and 10 
+### --6-Mafft
+### --7-Fastree
+### --8-Qiime2
 
 > cd Microbiome_Pipelines
 
