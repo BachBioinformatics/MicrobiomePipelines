@@ -24,7 +24,7 @@
 
 > cd Run_Pipelines
 
-## Preprocessing and Benchmarking filtration parameters
+## Preprocessing and Benchmarking reads filtration parameters
 ## For paired-end reads 
 #Run the preprocessing pipeline with the option of reads merging with different parameters : 
 #quality threshold and length of overlapping segment between R1 and R2 
@@ -32,11 +32,10 @@
 #The following script will run automatically the benchmarking with different patrameters 
 #The parameters can be personnalized by editing the following script before you run it [Run_Prepro_Pipeline_Paired_end.sh]
 
-## Run now the script 
-
+### Run now the script 
 > ./Run_Prepro_Pipeline_Paired_end.sh
 
-### The script that you have just run will call others scripts : 
+### The script that you have just run will call : 
 #--> The appropriate scripts in ../Pipelines/Prepro_Pipeline 
 #--> 00_rename_paths_pipelines.sh
 #--> Run_Stats_Benchmarking_Params.R
