@@ -59,11 +59,11 @@ Linux environment (Debian or redhat)
 ########################## Post- benchamking pipeline : Otus clustering and annotations  ############################
 
 ################ Install the Reference databases ################################## 
-> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_01_set_references_databases.sh /shared2/salmosim/bachar/Microbiome_Pipelines Programs
+> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_01_set_references_databases.sh /home/bach/Microbiome_Pipelines Programs
 
 # Dreplication and samples size filtration which discard samples having less than 10000 reads after filtration 
 
-> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1_B_C_run_VSEARCH.sh /shared2/salmosim/bachar/Microbiome_Pipelines/Run_Pipelines/results_Q_30_O_50 All_16s_samples_prefix.txt 10000
+> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1_B_C_run_VSEARCH.sh /home/bach/Microbiome_Pipelines/Run_Pipelines/results_Q_30_O_50 All_16s_samples_prefix.txt 10000
 
 
 # Denovo OTUs clustering and annotations [1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh]
@@ -71,5 +71,5 @@ Linux environment (Debian or redhat)
 #decntaminate otus using approriate genome reference 
 #annotate OTUs against RDP or SILVA databases using Usearch or Qiime2 depeding on the size of your data
 
-> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh /shared2/salmosim/bachar/Microbiome_Pipelines References_database Run_Pipelines/results_Q_30_O_50 Programs yes
+> ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_02_run_overlap_R1_R2_VSEARCH_RDP_SILVAQiime2_last_version.sh /home/bach/Microbiome_Pipelines References_database Run_Pipelines/results_Q_30_O_50 Programs yes
 
