@@ -2,8 +2,8 @@
 ## Author: bachar.cheaib@glasgow.ac.uk
 ## How to run the Pipeline on your local computer 
 
-#Before you run the pipeline you need to install to your HOME PATH the following softwares 
-#--Linux environment (Debian or redhat)
+# Before you run the pipeline you need to install to your HOME PATH the following softwares
+# Linux environment (Debian or Redhat)
 #--0-Miniconda2
 #--1-Sickle 
 #--2-Pandaseq
@@ -54,9 +54,9 @@
 #--> 00_rename_paths_pipelines.sh
 #--> Run_Stats_Benchmarking_Params.R
 
-########################## Post- benchamking pipeline : Otus clustering and annotations  ############################
+##  Post-benchamking pipeline : Otus clustering and annotations
 
-################ Install the Reference databases ################################## 
+## Install the Reference databases
 > ./../Pipelines/Pipeline_based_Usearch_Vsearch/1D_01_set_references_databases.sh /home/bach/Microbiome_Pipelines Programs
 
 # Dreplication and samples size filtration which discard samples having less than 10000 reads after filtration 
