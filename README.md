@@ -17,7 +17,8 @@
 
 
 > cd MicrobiomePipelines
-> mkdir Programs 
+## 
+> mkdir Programs
 
 ###In the folder Programs you can add the executable softwares like userach 9 and 10
 ###Under the folder Pipelines you see two subfolders 
